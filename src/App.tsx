@@ -1,19 +1,8 @@
-
-import Greeting from './Greeting.tsx'
+import TesteconexaoApi from './TesteconexaoApi.tsx'
 import './App.css'
 
 function App() {
-  
-
-  return (
-    <>
-  <Greeting  name="Lucas"/>
-  <button onClick={handleClick}>Clique aqui</button>
-    </>
-  )
+  return <TesteconexaoApi />
 }
 
-function handleClick() {
-  alert('Botão clicado!');
-}
 export default App
